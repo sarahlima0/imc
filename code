@@ -11,7 +11,7 @@ def interpretar_imc(imc):
         return "Sobrepeso"
     else:
         return "Obesidade"
-        
+
 def main():
     print("Calculadora de IMC")
     print("------------------")
@@ -24,5 +24,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
