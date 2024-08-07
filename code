@@ -1,3 +1,6 @@
+seu_imc = calcular_imc(peso, altura)
+    print(f"Seu IMC é: {seu_imc:.2f}")
+    print(f"Sua condição é: {interpretar_imc(seu_imc)}")
 def calcular_imc(peso, altura):
     imc = peso / (altura ** 2)
     return imc
