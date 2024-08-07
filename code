@@ -7,3 +7,7 @@ def interpretar_imc(imc):
         return "Abaixo do peso"
     elif imc < 25:
         return "Peso normal"
+
+if __name__ == "__main__":
+    main()
+
