@@ -7,3 +7,7 @@ def interpretar_imc(imc):
         return "Abaixo do peso"
     elif imc < 25:
         return "Peso normal"
+
+def main():
+    print("Calculadora de IMC")
+    print("------------------")
